@@ -1,0 +1,65 @@
+{
+  "themes": {
+    "default": {
+      "name": "Default - Cyber Blue",
+      "description": "Professional blue theme with cyan accents",
+      "colors": {
+        "background_primary": "#0A2540",
+        "background_secondary": "#0F3D63",
+        "accent_primary": "#00D2FF",
+        "accent_secondary": "#3A7BFF",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#8FB7D9",
+        "border": "#00D2FF"
+      },
+      "logo": "TOPTECH_logo_default.svg"
+    },
+    "dark": {
+      "name": "Dark - Neon Green",
+      "description": "High contrast dark theme with neon green",
+      "colors": {
+        "background_primary": "#0D0D0D",
+        "background_secondary": "#1A1A1A",
+        "accent_primary": "#00FF88",
+        "accent_secondary": "#00CC88",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#88CC88",
+        "border": "#00FF88"
+      },
+      "logo": "TOPTECH_logo_dark.svg"
+    },
+    "purple": {
+      "name": "Purple - Magenta",
+      "description": "Vibrant purple and magenta theme",
+      "colors": {
+        "background_primary": "#1A0B2E",
+        "background_secondary": "#16213E",
+        "accent_primary": "#B624FF",
+        "accent_secondary": "#FF006E",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#D68FFF",
+        "border": "#B624FF"
+      },
+      "logo": "TOPTECH_logo_purple.svg"
+    },
+    "orange": {
+      "name": "Orange - Warm",
+      "description": "Warm orange and gold theme",
+      "colors": {
+        "background_primary": "#2B1810",
+        "background_secondary": "#3D2817",
+        "accent_primary": "#FF9500",
+        "accent_secondary": "#FFB84D",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#FFB84D",
+        "border": "#FF9500"
+      },
+      "logo": "TOPTECH_logo_orange.svg"
+    }
+  },
+  "usage": {
+    "frontend": "Import theme in your React/Next.js app and apply via CSS variables or styled-components",
+    "backend": "Use theme colors for UI generation or email templates",
+    "documentation": "Each theme includes 7 primary colors for consistent branding across platforms"
+  }
+}
